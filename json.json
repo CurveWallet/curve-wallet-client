@@ -1,0 +1,40 @@
+// в блоке если и есть txin_zc_input, то всегда вторым в массиве
+// пример расшифрованного объекта с нужными данными
+{
+  "AGGREGATED": {
+    "version": 2,
+    "vin": [
+      {
+        "gen": {
+          "height": 3075629
+        }
+      },
+
+      {
+      "txin_zc_input": {
+        "k_image": "2ea58b7502566786793b7911b5d76291c471fcb77401160e67719e4965380b1a",
+        "etc_details": [ ]
+      }
+    }],
+    "vout": [ {
+      "tx_out_zarcanum": {
+        "stealth_address": "e58514604699c397e1f2c12f9797543a4a07ad771ed4b071b1aded8aa6c1271e",
+        "concealing_point": "5357d257853b5e9565c5cf6b1dac2823003e31cc832dfbb6d83425ea669caf76",
+        "amount_commitment": "dca0edaaa511ed89fd407fd95d9c84dd349b58cb2ba13c510ca0ed85ac5f1724",
+        "blinded_asset_id": "74c32d3eaafafc623bf483e858d42e8bf4ec7df064ada2e34934469cff6b6268",
+        "encrypted_amount": 17376761508007338788,
+        "mix_attr": 0
+      }
+    }, {
+      "tx_out_zarcanum": {
+        "stealth_address": "2006a987410c3d655892790007e279b9aa7d305b03bc23ea3dc673ed806c22a6",
+        "concealing_point": "adf8ac808f286d16f13d026140b2cc640cc5b385b0a42fe199a3832a916a6858",
+        "amount_commitment": "3a4bc2974c9404ba3d714e756bf3b7fc06194a95cacf9932ba0b9ee1b224c8b6",
+        "blinded_asset_id": "74c32d3eaafafc623bf483e858d42e8bf4ec7df064ada2e34934469cff6b6268",
+        "encrypted_amount": 2087331597958611905,
+        "mix_attr": 0
+      }
+    }
+    ]
+  }
+}
