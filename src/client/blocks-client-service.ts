@@ -17,15 +17,15 @@ export class BlocksClientService {
         private readonly httpClient: HttpClient,
     ) {}
 
-    async getBlocksStream(range: GetBlocksDto): Promise<NodeJS.ReadableStream> {
-        const { fromHeight, toHeight } = range;
-
-        try {
-            return this.httpClient.getStream(`${baseUrl}/blocks/range?fromHeight=${fromHeight}&toHeight=${toHeight}`);
-        } catch (error) {
-            console.error(error.message);
-        }
-    }
+    // async getBlocksStream(range: GetBlocksDto): Promise<NodeJS.ReadableStream> {
+    //     const { fromHeight, toHeight } = range;
+    //
+    //     try {
+    //         return this.httpClient.getStream(`${baseUrl}/blocks/range?fromHeight=${fromHeight}&toHeight=${toHeight}`);
+    //     } catch (error) {
+    //         console.error(error.message);
+    //     }
+    // }
 
     async getLatestBlockHeight(): Promise<number> {
         try {

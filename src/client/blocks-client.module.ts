@@ -5,7 +5,7 @@ import { HttpClient } from "./http-client";
 import { BlockProcessor } from "./block-processor";
 
 @Module({
-    imports: [HttpModule,],
+    imports: [HttpModule],
     providers: [HttpClient, BlocksClientService, BlockProcessor],
     exports: [BlocksClientService,],
 })

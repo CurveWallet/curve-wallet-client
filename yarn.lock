@@ -339,6 +339,16 @@
     "@babel/helper-string-parser" "^7.27.1"
     "@babel/helper-validator-identifier" "^7.28.5"
 
+"@badvoice/cryptonote-simple-signature@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@badvoice/cryptonote-simple-signature/-/cryptonote-simple-signature-0.0.7.tgz#bae40013889df56d40ef9a0d1b345d5fd9baa1b7"
+  integrity sha512-SlmskRD8RB7lKhc75GwieSbwg77APYeE3xYCD2DmX14r0VTmcVHi6fECxb6+42vxpmoJ6+wzy3HRsJJRhGUihQ==
+  dependencies:
+    bn.js "^5.2.1"
+    elliptic "^6.5.4"
+    keccak "^3.0.3"
+    rimraf "^3.0.2"
+
 "@bcoe/v8-coverage@^0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
@@ -800,6 +810,11 @@
   integrity sha512-LDT8Ai2eKnTzvnPaJwWOK03qTaFap5uHHsJCv6dL0uKWk6hyF9jms8DjyVaGsaujCaXDG8izl1mDEER0OmxaZA==
   dependencies:
     tslib "2.5.3"
+
+"@noble/hashes@^1.5.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.8.0.tgz#cee43d801fcef9644b11b8194857695acd5f815a"
+  integrity sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
